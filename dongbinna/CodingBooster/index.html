@@ -29,6 +29,7 @@
             color: white;
         }
     </style>
+
     <!-- 네비게이션 바 -->
     <nav class="navbar navbar-default">
         <!-- container-fluid 쓰면 폭의 최대값에 맞춰서 container가 만들어짐 -->
@@ -100,6 +101,38 @@
             </p>
         </div>
     </div>
+
+    <!-- 푸터 -->
+    <footer style="background-color: #000; color: #fff;">
+        <div class="container">
+            <br>
+            <div class="row">
+                <!-- 한 줄에 여러개 열이 들어가도록 구성한다는 얘기 -->
+                <!-- sm-2 하면 왼쪽에 나오고 sm-12로 하면 정중앙에 나옴 -->
+                <!-- 다 더해서 12가 나오면 그게 한줄임 그걸로 나눠서 쓰고 있는거 -->
+                <!-- &copy 하면 저작권 아이콘 나옴 -->
+                <div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2021</h5><h5>김태훈(TaeHun Kim)</h5></div>
+                <!-- <div class="col-sm-12" style="text-align: center;"><h5>Copyright &copy; 2021</h5><h5>김태훈(TaeHun Kim)</h5></div> -->
+                <div class="col-sm-4"><h4>대표자 소개</h4><p>저는 코딩 부스터의 대표 김태훈입니다. KH정보교육원에서 공부를 하고 있으며 웹 개발에 관심이 많습니다.</p></div>
+                <div class="col-sm-2"><h4 style="text-align: center;">네비게이션</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">소개</a>
+                        <a href="#" class="list-group-item">강사진</a>
+                        <a href="#" class="list-group-item">강의</a>
+                    </div>
+                </div>
+                <div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">페이스북</a>
+                        <a href="#" class="list-group-item">유튜브</a>
+                        <a href="#" class="list-group-item">네이버 TV</a>
+                    </div>
+                </div>
+                <!-- glyphicon 아이콘 넣어주는거 같음 -->
+                <div class="col-sm-2"><h4 style="text-align: center;"><span class="glyphicon glyphicon-ok"></span>&nbsp;by 김태훈</h4></div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
