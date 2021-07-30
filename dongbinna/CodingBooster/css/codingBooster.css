@@ -11,6 +11,7 @@ a {
 }
 a:hover {
     color: #bbb;
+    text-decoration: none;
     cursor: pointer;
 }
 
