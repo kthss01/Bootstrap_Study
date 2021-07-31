@@ -17,6 +17,34 @@
 </head>
 
 <body>
+    <style>
+        blockquote {
+            background: #f9f9f9;
+            border-left: 10px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            /* quptes 인용문을 감싸는 큰따옴표를 다른 기호 또는 무자로 바꿔주는 속성 */
+            /* 속성값을 4개 부여하면 앞의 두개는 1단계 인용문, 뒤의 두 개는 2단계 인용문에 사용 */
+            quotes: '\201C' '\201D' '\2018' '\2019';
+        }
+        blockquote::before {
+            color: #ccc;
+            content: open-quote;
+            font-size: 3em;
+            line-height: 0.1em;
+            margin-left: 0.8em;
+            vertical-align: -0.4em;
+        }
+        blockquote::after {
+            color: #ccc;
+            content: close-quote;
+            font-size: 3em;
+            line-height: 0.1em;
+            margin-left: 0.25em;
+            vertical-align: -0.4em;
+        }
+    </style>
+
     <!-- 네비게이션 바 -->
     <nav class="navbar navbar-default">
         <!-- container-fluid 쓰면 폭의 최대값에 맞춰서 container가 만들어짐 -->
@@ -89,6 +117,7 @@
                             </span>
                         </h3>
                     </div>
+
                     <div class="panel-body">
                         <div class="media">
                             <div class="media-left">
@@ -132,6 +161,11 @@
                             </tr>
                         </tbody>
                     </table>
+
+                    <!-- 인용구 -->
+                    <div class="panel-footer">
+                        <blockquote>&nbsp;&nbsp;Do And Forget!</blockquote>
+                    </div>
                 </div>
             </div>
         </div>
