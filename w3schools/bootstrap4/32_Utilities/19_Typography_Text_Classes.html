@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Display Headings</h1>
+        <p>Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight):
+        </p>
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+    </div>
+
+    <div class="container">
+        <h1>Font weight and italics</h1>
+        <p class="font-weight-bold">Bold text.</p>
+        <p class="font-weight-bolder">Bolder text.</p>
+        <p class="font-weight-normal">Normal weight text.</p>
+        <p class="font-weight-light">Light weight text.</p>
+        <p class="font-weight-lighter">Lighter weight text.</p>
+        <p class="font-italic">Italic text.</p>
+    </div>
+
+    <div class="container">
+        <h2>Typography</h2>
+        <p>Use the .lead class to make a paragraph "stand out":</p>
+        <p class="lead">This paragraph stands out.</p>
+        <p>This is a regular paragraph.</p>
+    </div>
+
+    <div class="container">
+        <h2>Typography</h2>
+        <p>Use the .small class to make the text smaller:</p>
+        <p class="small">This paragraph is smaller.</p>
+        <p>This is a regular paragraph.</p>
+    </div>
+
+    <div class="container">
+        <h2>Text break / Word break</h2>
+        <p>The .text-break class prevents long text from breaking layout.</p>
+        <p>With .text-break:</p>
+        <p class="text-break">
+            AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+        </p>
+        <p>Without .text-break:</p>
+        <p>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Typography</h2>
+        <p class="text-left">Left-aligned text.</p>
+        <p class="text-right">Right-aligned text.</p>
+        <p class="text-center">Center-aligned text.</p>
+        <p class="text-justify">Justified text. Justified text. Justified text. Justified text. Justified text.
+            Justified text.</p>
+        <p class="text-nowrap">No wrap text. No wrap text. No wrap text. No wrap text.</p>
+        <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of justify and nowrap.</p>
+    </div>
+
+    <div class="container">
+        <h2>Text Decoration</h2>
+        <p>Use the .text-decoration-none class to remove the underline from a link.</p>
+        <a href="#" class="text-decoration-none">A link without underline.</a>
+    </div>
+
+    <div class="container">
+        <h2>Typography</h2>
+        <p>Default text.</p>
+        <p class="text-monospace">Monospaced text.</p>
+    </div>
+
+    <div class="container">
+        <h2>Reset Color</h2>
+        <p>Use the .text-reset class to inherit the color from the parent. For example, a link is blue by default,
+            however, in this example, it inherits the grey, muted color from its parent. Try to remove the class to see
+            the differences.</p>
+        <p class="text-muted">Muted text with a <a href="#" class="text-reset">reset link</a>.</p>
+    </div>
+
+    <div class="container">
+        <h2>Typography</h2>
+        <p class="text-lowercase">Lowercased text.</p>
+        <p class="text-uppercase">Uppercased text.</p>
+        <p class="text-capitalize">Capitalized text.</p>
+    </div>
+
+    <div class="container">
+        <h2>Typography</h2>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948. (normal abbr)</p>
+        <p>The <abbr title="World Health Organization" class="initialism">WHO</abbr> was founded in 1948. (slightly
+            smaller abbr)</p>
+    </div>
+
+    <div class="container">
+        <h2>Typography</h2>
+        <p>The class .list-inline places all list items on a single line, when used together with the .list-inline-item:
+        </p>
+        <ul class="list-inline">
+            <li class="list-inline-item">Coffee</li>
+            <li class="list-inline-item">Tea</li>
+            <li class="list-inline-item">Milk</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Code</h2>
+
+        <p>For multiple lines of code, use the pre element:</p>
+        <pre>Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.</pre>
+
+        <p>If you add the .pre-scrollable class, the pre element gets a max-height of 340px and provides a y-axis
+            scrollbar:</p>
+        <pre class="pre-scrollable">Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.</pre>
+    </div>
+
+</body>
+
+</html>
